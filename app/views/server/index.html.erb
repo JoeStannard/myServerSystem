@@ -1,0 +1,11 @@
+<div class="list">
+  <div class="container">
+    <h2>List of Servers</h2>
+    <% @servers.each do |server| %>
+      <div class="entry">
+        <h3> <%= server.server_name %> </h3>
+        <p> <%= link_to "more info", server_path(server) %> </p>
+      </div>
+    <% end %>
+  </div>
+</div>
