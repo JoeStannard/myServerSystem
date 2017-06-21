@@ -4,6 +4,6 @@ class ServerController < ApplicationController
   end
 
   def show
-    @single_server = Server.find(params[:id])
+    @single_server = Server.where(server_id: params[:server_id]).first
   end
 end

@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   root 'server#index'
   
   get 'server/' => 'server#index'
-  get 'server/:id' => 'server#show', as: :single_server
+  get 'server/:server_id' => 'server#show', as: :single_server
   get 'sys_admin/' => 'sys_admin#index'
   get 'cluster/' => 'cluster#index'
   

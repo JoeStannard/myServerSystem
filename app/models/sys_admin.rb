@@ -2,7 +2,7 @@ class SysAdmin < ActiveRecord::Base
   has_many :server
   
   def index
-    @sysAdmin = sysAdmin.all
+    @sys_admins = Sysadmin.all
   end
 
 end

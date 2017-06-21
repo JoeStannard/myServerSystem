@@ -5,4 +5,9 @@ class Server < ActiveRecord::Base
   def index
     @server = Server.all
   end
+
+  def show
+    @server = Server.params[:id]
+  end
+
 end

@@ -1,13 +1,14 @@
 <div class="main">
   <div class="profile">
+    <p> single server info page </p>
     <h1> <%= @single_server.server_name %> </h1>
     <div class="list">
-      <p> * <%= @single_server.server_id %> </p>
-      <p> * <%= @single_server.processor %> </p>
-      <p> * <%= @single_server.memory %> </p>
-      <p> * <%= @single_server.notes %> </p>
-      <p> * <%= @single_server.number_processors %> </p>
-      <p> * <%= @single_server.disks %> </p>
+      <p> Server ID: <%= @single_server.server_id %> </p>
+      <p> Processor: <%= @single_server.processor %> </p>
+      <p> Memory: <%= @single_server.memory %> </p>
+      <p> Notes: <%= @single_server.notes %> </p>
+      <p> Number of Processors: <%= @single_server.number_processors %> </p>
+      <p> Disks: <%= @single_server.disks %> </p>
     </div>
   </div>
 </div>

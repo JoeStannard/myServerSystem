@@ -1,5 +1,5 @@
 class SysAdminController < ApplicationController
   def index
-    @sys_adminis = SysAdmin.all
+    @sys_admins = SysAdmin.all
   end
 end

@@ -1,0 +1,9 @@
+<div class="list">
+  <h2>List of Admins</h2>
+  <% @sys_admins.each do |admin| %>
+    <div class="entry">
+      <p> Name: <%= admin.name %> </p>
+      <p> ID: <%= admin.sys_admin_id %> </p>
+    </div>
+  <% end %>
+</div>

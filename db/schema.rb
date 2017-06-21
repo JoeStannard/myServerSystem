@@ -24,11 +24,10 @@ ActiveRecord::Schema.define(version: 20170620140459) do
   create_table "servers", force: true do |t|
     t.integer  "server_id"
     t.string   "server_name"
-    t.string   "cpu"
+    t.string   "processor"
     t.string   "memory"
     t.text     "notes"
     t.integer  "number_processors"
-    t.string   "processor"
     t.string   "disks"
     t.datetime "created_at"
     t.datetime "updated_at"
