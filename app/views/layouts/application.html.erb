@@ -5,10 +5,15 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-
-  <h1>My Server System</h1>
 </head>
+
 <body>
+  <div class="title">
+    <h1> My Server System </h1>
+  </div>
+  <div class="ui-bar">
+    <p> <%= link_to "Home", welcome_path %> <%= link_to "Servers", server_path %> <%= link_to "Admins", sys_admin_path %> </p>
+  </div>
   <div class="main-content">
     <%= yield %>
   </div>

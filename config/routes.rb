@@ -8,8 +8,8 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   
-  root 'server#index'
-  
+  root 'welcome#index'
+  get 'welcome/' => 'welcome#index'
   get 'server/' => 'server#index'
   get 'server/:server_id' => 'server#show', as: :single_server
   get 'sys_admin/' => 'sys_admin#index'
