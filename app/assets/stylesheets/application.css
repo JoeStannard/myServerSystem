@@ -13,3 +13,207 @@
  *= require_tree .
  *= require_self
  */
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: rgba(0,0,0,0.7);
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #2D2D2D;
+}
+h1{
+  padding: 15px;
+}
+
+h2 {
+  padding: 15px;
+}
+p, ol, ul {
+  margin-top: 0px;
+}
+
+body {
+  background-color: rgba(0,0,0,.8);
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  font-size: 12pt;
+  font-family: 'Roboto', sans-serif;
+}
+
+#inner {
+  margin: 0 auto;
+  
+}
+
+#wrapper {
+  background: #FFF;
+  margin: 0px auto;
+}
+
+#menu {
+  overflow: hidden;
+  background: #2B73B7;
+}
+
+#menu ul {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px;
+  list-style: none;
+  line-height: normal;
+  text-align: center;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu a {
+  display: block;
+  padding: 0px 40px 0px 40px;
+  line-height: 70px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transformation: uppercase;
+  test-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+  text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+
+#menu a:hover, #menu .current_page_item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+#menu .last {
+  border-right: none;
+}
+
+#page {
+  overflow: hidden;
+  padding: 5em 0em;
+}
+#page .title {
+  margin-bottom: 2em;
+}
+#page .title h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: rgba(0,0,0,8);
+}
+#page .title .byline {
+  display: block;
+  padding-bottom: 2em;
+  color: rgba(0,0,0,0.7);
+}
+
+#page .column1 {
+  width: 80%;
+}
+#page .button {
+  margin-top: 1em;
+}
+
+#content {
+  float: left;
+  width: 800px;
+  padding-right: 50px;
+  border-right: 1px solid #E6E7DC;
+}
+
+#content .post-title {
+  margin-bottom: 2em;
+}
+
+#content .post {
+  margin-bottom: 4em;
+  padding-bottom: 4em;
+  border-bottom: 1px solid #E6E7DC;
+}
+
+title {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  
+  padding: 5px;
+  text-align: center;
+}
+
+main-content {
+  background-color: white;
+  padding: 5px;
+  
+}
+
+#footer {
+  overflow: hidden;
+  padding: 50px 0px 30px 0px;
+}
+
+#footer p {
+  text-align: align;
+  color: rgba(0,0,0,0.7);
+}
+
+#footer a {
+  color: rgba(0,0,0,0.7);
+}
+
+.link-style {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 7px 20px;
+  background: #0C73D4;
+  border-radius: 5px;
+  text-decoration: none;
+  text-trasnform: uppercase;
+  color: #FFFFFF;
+}
+
+.title {
+  margin-bottom: 3em;
+}
+
+.title h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8em;
+  color: rgba(255,255,255,0.9);
+}
+
+.title .byline {
+  padding-top: 0.50em;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #6F6F6F;
+}
+
+
+
+
+
+
+
+
+

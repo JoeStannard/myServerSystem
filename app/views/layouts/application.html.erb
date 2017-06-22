@@ -8,14 +8,24 @@
 </head>
 
 <body>
-  <div class="title">
-    <h1> My Server System </h1>
-  </div>
-  <div class="ui-bar">
-    <p> <%= link_to "Home", welcome_path %> <%= link_to "Servers", server_path %> <%= link_to "Admins", sys_admin_path %> </p>
-  </div>
-  <div class="main-content">
-    <%= yield %>
-  </div>
+  <div id="wrapper">
+    <div id="header-wrapper">
+      <div id="header" class="container">
+        <h1> My Server System </h1>
+      </div>
+      <div id="menu" class="container">
+        <ul>
+          <li> <%= link_to "Home", welcome_path %> </li>
+          <li> <%= link_to "Servers", server_path %> </li>
+          <li> <%= link_to "Admins", sys_admin_path %> </li>
+        </ul>
+      </div>
+    </div>
+    <div id="page" class="container">
+      <div id="content">
+        <%= yield %>
+      </div>
+    </div>   
+    
 </body>
 </html>
