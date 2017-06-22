@@ -1,6 +1,11 @@
 class ServerController < ApplicationController
   def index
     @servers = Server.all
+    if params[:search]
+      @servers = Server.search(params[:search]).first
+    else
+      @servers = Server.all.order('created_at DESC')
+    end
   end
 
   def show

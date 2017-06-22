@@ -1,0 +1,5 @@
+<% if @servers.present? %>
+  <%= render @servers %>
+<% else %>
+  <p> There are no results containing: <%= params[:search] %> </p>
+<% end %>

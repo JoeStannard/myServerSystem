@@ -2,10 +2,8 @@
   <div class="container">
     <h2>List of Servers</h2>
     <% @servers.each do |server| %>
-      <div class="column1">
-        <h3> <%= server.server_name %> </h3>
-        <p> <%= link_to 'More info', single_server_path(server.server_id) %> </p>
-      </div>
+      <h3> <%= server.server_name %> </h3>
+      <p> <%= link_to 'More info', single_server_path(server.server_id) %> </p>
     <% end %>
   </div>
 </div>

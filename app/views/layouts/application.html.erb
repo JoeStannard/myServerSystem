@@ -19,6 +19,10 @@
           <li> <%= link_to "Servers", server_path %> </li>
           <li> <%= link_to "Admins", sys_admin_path %> </li>
         </ul>
+        <%#= form_tag(server_path, :method => "get", server_id: "search-form") do %>
+          <%#= text_field_tag :search, params[:search], placeholder: "Search Servers" %>
+          <%#= submit_tag "Search" %>
+        <%# end %>
       </div>
     </div>
     <div id="page" class="container">
